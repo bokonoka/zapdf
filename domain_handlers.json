@@ -58,5 +58,5 @@
         "source": "OTP",
         "target": "otp Deltron",
         "resolve_forwarded": False
-    },
+    }
 }
