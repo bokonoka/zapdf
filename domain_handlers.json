@@ -1,62 +1,62 @@
 {
-    "intereuropa.si": {
-        "handler": handle_brandup_pdf,
-        "source": "Dob",
-        "target": "Brandup odp",
-        "resolve_forwarded": True
-    },
-    "intereuropa.hr": {
-        "handler": handle_brandup_pdf,
-        "source": "Dob",
-        "target": "Brandup odp",
-        "resolve_forwarded": True
-    },
-    "brandup.si": {
-        "handler": handle_brandup_pdf,
-        "source": "Dob",
-        "target": "Brandup odp",
-        "resolve_forwarded": False
-    },
-    "eurolab.me": {
-        "handler": handle_eurolab_pdf,
-        "source": "OTP",
-        "target": "EUROLAB OTP",
-        "resolve_forwarded": False
-    },
-    "zetatrans.com": {
-        "handler": handle_eurolab_pdf,
-        "source": "OTP",
-        "target": "EUROLAB OTP",
-        "resolve_forwarded": True
-    },
-    "tkk-group.com": {
-        "handler": convert_tkk_pdf_to_xml,
-        "source": "OTP",
-        "target": "OTP TKK",
-        "resolve_forwarded": False
-    },
-    "intereuropa.ba": {
-        "handler": handle_brandup_pdf,
-        "source": "Dob",
-        "target": "Brandup odp",
-        "resolve_forwarded": True
-    },
-    "deichmann.com": {
-        "handler": handle_deichmann_xls,
-        "source": "OTP",
-        "target": "Deichmann otp",
-        "resolve_forwarded": False
-    },
-    "zvezdar.com": {
-        "handler": extract_zvezdar_data,
-        "source": "Dob",
-        "target": "izhodi Zvezdar",
-        "resolve_forwarded": False
-    },
-    "deltron.hr": {
-        "handler": extract_deltron_data,
-        "source": "OTP",
-        "target": "otp Deltron",
-        "resolve_forwarded": False
-    }
+  "intereuropa.si": {
+    "handler": "handle_brandup_pdf",
+    "source": "Dob",
+    "target": "Brandup odp",
+    "resolve_forwarded": true
+  },
+  "intereuropa.hr": {
+    "handler": "handle_brandup_pdf",
+    "source": "Dob",
+    "target": "Brandup odp",
+    "resolve_forwarded": true
+  },
+  "brandup.si": {
+    "handler": "handle_brandup_pdf",
+    "source": "Dob",
+    "target": "Brandup odp",
+    "resolve_forwarded": false
+  },
+  "eurolab.me": {
+    "handler": "handle_eurolab_pdf",
+    "source": "OTP",
+    "target": "EUROLAB OTP",
+    "resolve_forwarded": false
+  },
+  "zetatrans.com": {
+    "handler": "handle_eurolab_pdf",
+    "source": "OTP",
+    "target": "EUROLAB OTP",
+    "resolve_forwarded": true
+  },
+  "tkk-group.com": {
+    "handler": "convert_tkk_pdf_to_xml",
+    "source": "OTP",
+    "target": "OTP TKK",
+    "resolve_forwarded": false
+  },
+  "intereuropa.ba": {
+    "handler": "handle_brandup_pdf",
+    "source": "Dob",
+    "target": "Brandup odp",
+    "resolve_forwarded": true
+  },
+  "deichmann.com": {
+    "handler": "handle_deichmann_xls",
+    "source": "OTP",
+    "target": "Deichmann otp",
+    "resolve_forwarded": false
+  },
+  "zvezdar.com": {
+    "handler": "extract_zvezdar_data",
+    "source": "Dob",
+    "target": "izhodi Zvezdar",
+    "resolve_forwarded": false
+  },
+  "deltron.hr": {
+    "handler": "extract_deltron_data",
+    "source": "OTP",
+    "target": "otp Deltron",
+    "resolve_forwarded": false
+  }
 }
